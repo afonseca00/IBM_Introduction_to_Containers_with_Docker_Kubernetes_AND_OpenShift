@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: myapp-config
+  namespace: sn-labs-alexandrefro
+data:
+  env-var1: value1
+  env-var2: value2
+  server-url: http://example.com
+  timeout: "5000"
